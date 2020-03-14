@@ -11,8 +11,8 @@
     * morgan
     * joi
     * nodemon
-* [ ] Setup react app
-  * [ ] Basic cleanup:
+* [X] Setup react app
+  * [X] Basic cleanup:
     * Remove serviceWorker.js
     * Remove logo.svg
     * Remove index.css
