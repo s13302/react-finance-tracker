@@ -1,0 +1,16 @@
+.divider {
+  margin: 0 10px;
+  border: 1px dotted #4E5D6C;
+}
+
+.money {
+  font-weight: bold;
+}
+
+.plus {
+  color: green;
+}
+
+.minus {
+  color: red;
+}
