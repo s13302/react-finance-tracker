@@ -28,9 +28,19 @@
     * [X] Transaction component
   * [X] Add transaction component
   * [X] Add global context
-* [ ] MVP Product
-  * [ ] Adding the transaction to the list
-  * [ ] Removing the transaction from list
-  * [ ] Show current balance
-  * [ ] Show whole Income
-  * [ ] Show whole Expenses
+* [X] MVP Product
+  * [X] Adding the transaction to the list
+  * [X] Removing the transaction from list
+  * [X] Show current balance
+  * [X] Show whole Income
+  * [X] Show whole Expenses
+* [ ] Backend
+  * [ ] Setup the MongoDB database
+  * [ ] Setup server routes:
+    * GET /api/transaction - gets all transactions from server
+    * POST /api/transaction - uploads new transaction to the server (payload: new transaction without id)
+    * DELETE /api/transaction - removes the transaction (payload: id of transaction)
+  * [ ] Fetch the transaction list from server
+  * [ ] Upload new transaction to the server
+  * [ ] Remove the transaction from the server
+* [ ] Make the app nice looking
