@@ -1,8 +1,8 @@
 import React, { useState, useContext } from 'react'
-import { GlobalContext } from '../context/GlobalState';
+import TransactionContext from '../context/TransactionContext';
 
 export const AddTransaction = () => {
-  const { addTransaction } = useContext(GlobalContext);
+  const { addTransaction } = useContext(TransactionContext);
 
   const [text, setText] = useState('');
   const [amount, setAmount] = useState(0);
@@ -11,11 +11,12 @@ export const AddTransaction = () => {
     e.preventDefault();
 
     const newTransaction = {
-      id: Math.floor(Math.random() * 100000000),
       text,
       amount: parseFloat(amount),
     };
     addTransaction(newTransaction);
+    setText('');
+    setAmount(0);
   };
 
   return (

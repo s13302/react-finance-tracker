@@ -34,13 +34,14 @@
   * [X] Show current balance
   * [X] Show whole Income
   * [X] Show whole Expenses
-* [ ] Backend
-  * [ ] Setup the MongoDB database
-  * [ ] Setup server routes:
+* [X] Backend
+  * [X] Setup the MongoDB database
+  * [X] Setup server routes:
     * GET /api/transaction - gets all transactions from server
     * POST /api/transaction - uploads new transaction to the server (payload: new transaction without id)
     * DELETE /api/transaction - removes the transaction (payload: id of transaction)
-  * [ ] Fetch the transaction list from server
-  * [ ] Upload new transaction to the server
-  * [ ] Remove the transaction from the server
+  * [X] Fetch the transaction list from server
+  * [X] Upload new transaction to the server
+  * [X] Remove the transaction from the server
 * [ ] Make the app nice looking
+* [ ] Write the README.md description for this project
