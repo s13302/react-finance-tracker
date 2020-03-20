@@ -1,6 +1,40 @@
 # React App - Finance Tracker
 
-## Scope
+## Description
+
+Application which allows you to track personal income and expenses. Automatically counts the sum of all incomes and all expenses and shows them to user.
+
+## Instruction
+
+To run the application in development mode you need to:
+
+* Enter to the server catalog `cd server`
+* Run the server `npm run-script dev`
+* Enter to the client catalog `cd ../client`
+* Run the frontend app `yarn start`
+
+## License
+
+This app is an my personal React exploratory and you can use it as you want to. I really hope it will have value for you.
+
+## Technology Stack
+
+### Both
+
+* Node.js
+* npm
+
+### Backend
+
+* Express
+* MongoDB
+
+### Frontend
+
+* React
+* React Context API
+
+## Scope of the project
 
 * [X] Setup base server app
   * [X] Install all dependencies
@@ -44,4 +78,4 @@
   * [X] Upload new transaction to the server
   * [X] Remove the transaction from the server
 * [X] Make the app nice looking
-* [ ] Write the README.md description for this project
+* [X] Write the README.md description for this project
