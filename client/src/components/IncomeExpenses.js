@@ -10,16 +10,16 @@ export const IncomeExpenses = () => {
   const expensesTotal = (amounts.filter(amount => amount < 0).reduce((acc, item) => (acc += item), 0) * -1).toFixed(2);
 
   return (
-    <div className="card justify-content-center align-items-center">
+    <div className="income-expense m-auto">
       <div className="row alert alert-light rounded">
         <div className="span6">
           <h4>Income</h4>
-          <p className="money plus">+ ${incomeTotal}</p>
+          <p className="text-center money plus">+ ${incomeTotal}</p>
         </div>
         <div className="divider"></div>
         <div className="span6">
           <h4>Expense</h4>
-          <p className="money minus">- ${expensesTotal}</p>
+          <p className="text-center money minus">- ${expensesTotal}</p>
         </div>
       </div>
     </div>

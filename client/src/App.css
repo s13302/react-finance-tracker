@@ -1,3 +1,9 @@
+.income-expense,
+.balance,
+.header {
+  width: fit-content;
+}
+
 .divider {
   margin: 0 10px;
   border: 1px dotted #4E5D6C;
@@ -7,10 +13,10 @@
   font-weight: bold;
 }
 
-.plus {
+.money.plus {
   color: green;
 }
 
-.minus {
+.money.minus {
   color: red;
 }

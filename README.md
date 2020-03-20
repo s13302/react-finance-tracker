@@ -43,5 +43,5 @@
   * [X] Fetch the transaction list from server
   * [X] Upload new transaction to the server
   * [X] Remove the transaction from the server
-* [ ] Make the app nice looking
+* [X] Make the app nice looking
 * [ ] Write the README.md description for this project

@@ -2,8 +2,8 @@ import React from 'react'
 
 export const Header = () => {
   return (
-    <div className="card justify-content-center align-items-center">
-      <h1 className="card-title">
+    <div className="m-auto header">
+      <h1>
         Expense Tracker 
       </h1>
     </div>

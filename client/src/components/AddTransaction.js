@@ -20,8 +20,8 @@ export const AddTransaction = () => {
   };
 
   return (
-    <div className="card justify-content-center align-items-center">
-      <h3 className="card-title">Add new transaction</h3>
+    <div>
+      <h3>Add new transaction</h3>
       <form onSubmit={onSubmit}>
         <div className="form-group">
           <label htmlFor="text">Text</label>
@@ -29,9 +29,15 @@ export const AddTransaction = () => {
             id="text" className="form-control" placeholder="Text..." />
         </div>
         <div className="form-group">
-          <label htmlFor="amount">Amount (negative - expense, positive - income)</label>
-          <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)}
-            id="amount" className="form-control" placeholder="Amount..." />
+          <label htmlFor="amount">Amount</label>
+          <small className="text-muted">(negative - expense, positive - income)</small>
+          <div className="input-group">
+            <div className="input-group-prepend">
+              <div className="input-group-text">$</div>
+            </div>
+            <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)}
+              id="amount" className="form-control" placeholder="Amount..." />
+          </div>
         </div>
         <button className="btn btn-primary">Add transaction</button>
       </form>
